@@ -11,7 +11,7 @@ Requirements
 
 This role has only been tested on Ubuntu 14.04. Since this uses Ansible's
 docker module, you will need to ensure that a recent-ish version of `docker-py`
-and `docker` are installed.
+and `docker` are installed. 
 
 Examples
 --------
