@@ -12,7 +12,7 @@
     memory: "{{ docker_cadvisor_memory_limit }}"
     log_driver: "{{ docker_cadvisor_log_driver }}"
     log_opt: "{{ docker_cadvisor_log_opt }}"
-    pull: always
+    pull: yes
     restart_policy: always
   tags:
     - install
