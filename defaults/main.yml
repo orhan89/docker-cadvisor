@@ -18,4 +18,3 @@ docker_cadvisor_log_driver: syslog
 docker_cadvisor_log_opt:
   syslog-facility: local0
   tag: "{{ docker_cadvisor_name }}"
-docker_api_version: 1.21
