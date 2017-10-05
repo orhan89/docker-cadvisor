@@ -1,7 +1,6 @@
 - name: Run docker cadvisor container
   become: true
-  docker:
-    docker_api_version: "{{ docker_api_version }}"
+  docker_container:
     env: "{{ docker_cadvisor_env }}"
     expose: "{{ docker_cadvisor_expose }}"
     image: "{{ docker_cadvisor_image }}"
